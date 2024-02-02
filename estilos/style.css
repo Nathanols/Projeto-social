@@ -1,0 +1,29 @@
+body{
+    background: black url(../imagens/fundo-madeira.jpg) center center no-repeat  fixed;
+    background-size: cover;
+}
+li:hover{
+    scale: 1.01;
+    transition: -5s;
+}
+li{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+img.tamanho{
+    width: 55px;
+    border-radius: 30px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    height: 644px;
+    width: 311px;
+}
